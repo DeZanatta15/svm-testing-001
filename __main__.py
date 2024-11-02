@@ -11,6 +11,6 @@ class main:
         self.camera = Utils.Web_cam()
         
 #################/ USAGE OF DEBUGING /#############################
-if __name__ == '__main__':
-    modelo = main()
-    web_cam = main()
+
+modelo = main()
+web_cam = main()

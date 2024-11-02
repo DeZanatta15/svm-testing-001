@@ -62,12 +62,7 @@ class Web_cam:
     def start(self):
         """Start the WebcamClient."""
         self.run()
-
-# Main function to run the WebcamClient
-def main():
-    flask_url = "http://localhost:5001/predict"  # Set the URL of your Flask server
-    webcam_client = (flask_url)
-    webcam_client.run()
+        self.url_predict = "http://localhost:5001/predict"  # Set the URL of your Flask server
 
 if __name__ == "__main__":
     web_cam = Web_cam()
